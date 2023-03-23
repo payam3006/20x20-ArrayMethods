@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom Array Methods</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>DOM Array Methods</h1>
+    <div class="container">
+
+        <div class="leftColumn">
+            <div class="btn addUser" onclick="getData()">Add User &#128102</div>
+            <div class="btn doubleMoney" onclick="doubleMoney()">Double Money &#128176</div>
+            <div class="btn showOnlyMillionaires" onclick="showOnlyMillionaires()">Show Only Millionaires &#128180</div>
+            <div class="btn sortByRichest" onclick="sortByRichest()">Sort By Richest &#11015</div>
+            <div class="btn calculateEntireWealth" onclick="calculateEntireWealth()">Calculate Entire Wealth &#10004
+            </div>
+
+        </div>
+
+        <div class="rightColumn">
+            <div class="firstRow">
+                <h2 class="person">
+                    Person
+                </h2>
+                <h2 class="wealth">Wealth</h2>
+            </div>
+            <div class="secondRow">
+                <div class="names"></div>
+                <div class="wealthes"></div>
+            </div>
+            <div class="thirdRow1" style="display: none;">
+                <div class="thirdRow2">
+                    <div class="totalText">Total Wealth:</div>
+                    <div class="total">4356</div>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
