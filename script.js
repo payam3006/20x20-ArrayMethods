@@ -76,7 +76,7 @@ function showOnlyMillionaires() {
 }
 
 function totalWealth(total, obj) {
-  return total + parseInt(obj.wealth);
+  return total + parseFloat(obj.wealth);
 }
 
 function calculateEntireWealth() {
